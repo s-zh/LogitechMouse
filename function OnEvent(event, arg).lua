@@ -87,10 +87,9 @@ function OnEvent(event, arg)
         if (direction == -2) then
             -- 下向手势：powerToys Run
             --OutputLogMessage("enter down\n")
-            PressKey("lgui")
             PressKey("lalt")
-            PressKey("s")
-            ReleaseKey("lgui", "lalt", "s")
+            PressKey("spacebar")
+            ReleaseKey("lalt", "spacebar")
         end
 
     end
